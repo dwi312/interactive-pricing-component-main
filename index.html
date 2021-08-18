@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+
+</head>
+<body>
+  <main>
+    <div class="main__container">
+      <div class="heading__container">
+        <h1 class="text title">Simple, traffic-based pricing</h1>
+        <p class="text description">Sign-up for our 30-day trial. No credit card required.</p>
+      </div>
+
+      <div class="content">
+        <div class="content__container">
+          <div class="content__pricing">
+            <div class="pricing__container">
+              <p class="text heading">100k Pageviews</p>
+              <div class="text pricing">
+                <p class="value-pricing">$ 16.00 </p>
+                <p class="text"> /month</p>
+              </div>
+              <input type="range" min="0" max="100" value="50" class="slide__pricing"></input>
+            </div>
+
+            <div class="biling">
+              <small class="month-billing">Monthly Billing</small>
+              <input type="checkbox" class="checkBx__billing"></input>
+              <small class="year-billing">
+                Yearly Billing
+                <b class="discount"> 25% discount</b>
+              </small>
+            </div>
+            
+          </div>
+
+          <div class="content__trial">
+            <div class="trial__container">
+              <div class="text trial-description">
+                <p>Unlimited websites</p>
+                <p>100% data ownership</p>
+                <p>Email reports</p>
+              </div>
+
+              <a href="#" class="button__link">Start my trial</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+
+
+
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Dwi susilo</a>.
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
